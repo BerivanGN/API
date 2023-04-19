@@ -3,7 +3,6 @@ package test;
 import baseURL.HeroquAppBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
 import testData.TestDataHerokuApp;
 
@@ -13,7 +12,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class C24_Post_Deserialization extends HeroquAppBaseUrl {
+public class C24_Post_DeSerialization extends HeroquAppBaseUrl {
 
     /*
       https://restful-booker.herokuapp.com/booking url'ine asagidaki

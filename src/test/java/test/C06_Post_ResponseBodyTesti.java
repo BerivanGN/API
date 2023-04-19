@@ -45,7 +45,11 @@ public class C06_Post_ResponseBodyTesti {
 
         // 3 - Response'i kaydet
 
-        Response response = given().contentType(ContentType.JSON).when().body(reqBody.toString()).post(url);
+        Response response = given()
+                .contentType(ContentType.JSON)
+                .when()
+                .body(reqBody.toString())
+                .post(url);
 
         response.prettyPrint();
 

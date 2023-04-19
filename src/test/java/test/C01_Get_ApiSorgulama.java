@@ -33,6 +33,7 @@ public class C01_Get_ApiSorgulama {
         // 3 - Bize dönen Response'ı Actual Data olarak kaydet
         Response response = given().when().get(url);
 
+
         response.prettyPrint();
 
         System.out.println("Status Code : " + response.getStatusCode());
